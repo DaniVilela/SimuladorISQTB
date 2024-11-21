@@ -1,0 +1,64 @@
+/* styles.css */
+
+/* Estilo para centrar todo el contenido de la pantalla */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ocupa toda la altura de la ventana */
+    background-color: gray;
+}
+
+#main-container {
+    text-align: center; /* Centrar texto */
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 600px; /* Definir un ancho fijo para el contenedor */
+    height: 800PX;
+}
+
+h1 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+#image-container {
+    width: 600px;
+    height: 600px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    border-radius: 8px;
+}
+
+#welcome-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Hace que la imagen ocupe todo el contenedor sin deformarse */
+    border-radius: 8px;
+}
+
+#button-container {
+    margin-top: 20px;
+}
+
+#start-button {
+    padding: 15px 30px;
+    font-size: 1.2em;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#start-button:hover {
+    background-color: #0056b3;
+}
