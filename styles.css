@@ -1,6 +1,7 @@
 /* General */
 body {
-    font-family: 'Arial', 'Roboto', 'Helvetica', sans-serif; /* Fuentes de respaldo */
+    /*font-family: 'Arial', 'Roboto', 'Helvetica', sans-serif; /* Fuentes de respaldo */
+    font-family: 'Noto Sans', Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: gray;
