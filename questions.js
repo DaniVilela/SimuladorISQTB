@@ -99,7 +99,7 @@ const quizData = [
   {
     question:
       "<h2>5.- ¿Cuáles de los siguientes factores (del I al V) tienen una influencia SIGNIFICATIVA en el proceso de prueba?</h2>" +
-      "<br><br>I.	El ciclo de vida de desarrollo de software (CVDS)." +
+      "<br>I.	El ciclo de vida de desarrollo de software (CVDS)." +
       "<br>II.	El número de defectos detectados en proyectos anteriores." +
       "<br>III.	Los riesgos de producto identificados" +
       "<br>IV.	Los nuevos requisitos normativos obligatorios." +

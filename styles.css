@@ -1,29 +1,34 @@
-/* styles.css */
+/* General */
 body {
     font-family: Arial, sans-serif;
-    margin: 20px;
+    margin: 0;
     padding: 0;
     background-color: gray;
-    height: 100vh; 
+    min-height: 100vh;
     display: flex;
-    justify-content: center; /* Centra en el eje X */
-    align-items: center; /* Centra en el eje Y */
+    justify-content: center;
+    align-items: flex-start; /* Alinea al inicio en lugar de centrar */
+    overflow-x: hidden; /* Elimina el desplazamiento lateral */
 }
 
 .container {
-    max-width: 635px;
-    margin: 0 auto;
-    padding: 30px;
+    max-width: 635px; /* Ancho máximo para vista escritorio */
+    width: 100%; /* El contenedor ocupa el 100% de su contenedor principal */
+    margin: 20px auto; /* Centra el contenido */
+    padding: 20px;
     background-color: #f9f9f9;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
- 
+    box-sizing: border-box; /* Asegura que el padding no aumente el tamaño total */
 }
 
-h2 {
-    font-size: 1.5em;
+/* Pregunta */
+#question-text {
+    font-weight: bold;
+    margin-bottom: 20px;
 }
 
+/* Opciones */
 .option {
     display: block;
     margin: 10px 0;
@@ -33,6 +38,7 @@ input[type="radio"] {
     margin-right: 10px;
 }
 
+/* Botones */
 button {
     display: inline-block;
     padding: 10px 20px;
@@ -41,6 +47,8 @@ button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    width: 100%; /* Ancho completo para dispositivos móviles */
+    max-width: 200px; /* Ancho máximo */
 }
 
 button#submit-btn {
@@ -58,6 +66,7 @@ button:disabled {
     cursor: not-allowed;
 }
 
+/* Correcto e incorrecto */
 .correct {
     background-color: green;
     color: white;
@@ -68,16 +77,13 @@ button:disabled {
     color: white;
 }
 
+/* Etiquetas */
 label {
     display: block;
     margin-bottom: 10px;
 }
 
-#question-text {
-    font-weight: bold;
-}
-
-/* Estilo para el contador */
+/* Contador */
 #timer-container {
     margin-top: 20px;
     text-align: center;
@@ -86,5 +92,21 @@ label {
 #timer {
     font-size: 1.5em;
     font-weight: bold;
-    color: #ff0000; /* Rojo para destacar el tiempo */
+    color: #ff0000;
+}
+
+/* Responsividad */
+@media (max-width: 600px) {
+    .container {
+        margin: 10px;
+        padding: 15px;
+    }
+
+    #question-text {
+        font-size: 1em; /* Reducir tamaño del texto */
+    }
+
+    button {
+        font-size: 0.9em; /* Reducir tamaño del texto de los botones */
+    }
 }
