@@ -99,7 +99,7 @@ const quizData = [
   {
     question:
       "<h2>5.- ¿Cuáles de los siguientes factores (del I al V) tienen una influencia SIGNIFICATIVA en el proceso de prueba?</h2>" +
-      "<br>I.	El ciclo de vida de desarrollo de software (CVDS)." +
+      "<br>I.	El ciclo de vida de desarrollo de software (SDLC)." +
       "<br>II.	El número de defectos detectados en proyectos anteriores." +
       "<br>III.	Los riesgos de producto identificados" +
       "<br>IV.	Los nuevos requisitos normativos obligatorios." +
@@ -128,7 +128,8 @@ const quizData = [
 
   {
     question:
-      "<h2>6.- ¿Cuáles DOS de las siguientes tareas pertenecen PRINCIPALMENTE a un rol de prueba?</h2>",
+      "<h2>6.- ¿Cuáles DOS de las siguientes tareas pertenecen PRINCIPALMENTE a un rol de prueba?</h2>" +
+      "<br>Seleccionar DOS opciones.",
     options: [
       {
         text: "a)	Configurar entornos de prueba.",
@@ -210,7 +211,7 @@ const quizData = [
   },
   {
     question:
-      '<h2>9.- Tenga en cuenta la siguiente regla: "para cada actividad del ciclo de vida de desarrollo de software (CVDS) existe una actividad de prueba correspondiente". ¿En qué modelos de CVDS se cumple esta regla?</h2>' +
+      '<h2>9.- Tenga en cuenta la siguiente regla: "para cada actividad del ciclo de vida de desarrollo de software (SDLC) existe una actividad de prueba correspondiente". ¿En qué modelos de CVDS se cumple esta regla?</h2>' +
       "<br>Seleccionar UNA opción.",
     options: [
       {
@@ -372,7 +373,7 @@ const quizData = [
       "<br>Seleccionar UNA opción.",
     options: [
       {
-        text: "a)	Tener una gestión de defectos menos costosa debido a la facilidad de detectar defectos más tarde en el CVDS.",
+        text: "a)	Tener una gestión de defectos menos costosa debido a la facilidad de detectar defectos más tarde en el SDLC.",
         value: "a",
       },
       {
@@ -468,7 +469,7 @@ const quizData = [
         value: "d",
       },
     ],
-    correct: ["c"],
+    correct: ["d"],
   },
   {
     question:
@@ -747,7 +748,7 @@ const quizData = [
       "<br>•	El editor puede añadir comentarios." +
       "<br>•	El editor puede guardar cambios." +
       '<br>•	El editor puede reasignar el rol de "propietario del contenido" para realizar actualizaciones.' +
-      "<br><br>¿Cuál de las siguientes opciones es el MEJOR ejemplo de prueba desarrollo guiado por prueba de aceptación (DGPA) para esta historia de usuario?" +
+      "<br><br>¿Cuál de las siguientes opciones es el MEJOR ejemplo de prueba desarrollo guiado por prueba de aceptación (ATDD) para esta historia de usuario?" +
       "<br><br>Seleccionar UNA opción.",
     options: [
       {
