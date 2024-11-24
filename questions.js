@@ -147,7 +147,7 @@ const quizData = [
         value: "d",
       },
       {
-        text: "e)	Crear el plan de prueba.",
+        text: "e)	Informar sobre la cobertura alcanzada.",
         value: "e",
       },
     ],
@@ -468,7 +468,7 @@ const quizData = [
         value: "d",
       },
     ],
-    correct: ["d"],
+    correct: ["c"],
   },
   {
     question:
@@ -611,7 +611,7 @@ const quizData = [
         value: "d",
       },
     ],
-    correct: ["c"],
+    correct: ["d"],
   },
   {
     question:
@@ -667,7 +667,7 @@ const quizData = [
       "<br>Seleccionar UNA opción.",
     options: [
       {
-        text: "a)	La predicción de errores implica utilizar sus conocimientos y experiencia sobre los defectos encontrados en el pasado y los errores típicos cometidos por los desarrolladores.",
+        text: "a)	La predicción de errores requiere replicar rápidamente la tarea de desarrollo para identificar el tipo de equivocación que podría cometer un desarrollador",
         value: "a",
       },
       {
@@ -679,7 +679,7 @@ const quizData = [
         value: "c",
       },
       {
-        text: "d)	La predicción de errores requiere replicar rápidamente la tarea de desarrollo para identificar el tipo de equivocación que podría cometer un desarrollador.",
+        text: "d)	La predicción de errores implica utilizar sus conocimientos y experiencia sobre los defectos encontrados en el pasado y los errores típicos cometidos por los desarrolladores.",
         value: "d",
       },
     ],
@@ -732,7 +732,7 @@ const quizData = [
         value: "d",
       },
     ],
-    correct: ["c"],
+    correct: ["b"],
   },
   {
     question:
@@ -767,7 +767,7 @@ const quizData = [
         value: "d",
       },
     ],
-    correct: ["c"],
+    correct: ["d"],
   },
   {
     question:
@@ -819,7 +819,7 @@ const quizData = [
         value: "e",
       },
     ],
-    correct: ["c"],
+    correct: ["c", "e"],
   },
   {
     question:
@@ -910,22 +910,30 @@ const quizData = [
     correct: ["a"],
   },
   {
-    question: "<h2>35.- </h2>" + "<br>Seleccionar UNA opción.",
+    question:
+      "<h2>35.- Durante un análisis del riesgo se identificó y evaluó el siguiente riesgo:</h2>" +
+      "<br>-	Riesgo: El tiempo de respuesta es muy prolongado para generar un informe." +
+      "<br>-	Probabilidad del riesgo: media; impacto del riesgo: alto." +
+      "<br>-  Respuesta al riesgo:" +
+      "<br>&nbsp;&nbsp;&nbsp;•	Un equipo de prueba independiente realiza pruebas de rendimiento durante la prueba de sistema" +
+      "<br>&nbsp;&nbsp;&nbsp;•  Una muestra seleccionada de usuarios finales realiza pruebas de aceptación alfa y beta antes de la entrega. " +
+      "<br><br>	¿Qué medida se propone tomar en respuesta a este riesgo analizado?" +
+      "<br><br>Seleccionar UNA opción.",
     options: [
       {
-        text: "",
+        text: "a)	Aceptación del riesgo.",
         value: "a",
       },
       {
-        text: "",
+        text: "b)	Plan de contingencia.",
         value: "b",
       },
       {
-        text: "",
+        text: "c)	Mitigación del riesgo.",
         value: "c",
       },
       {
-        text: "",
+        text: "d)	Transferencia del riesgo.",
         value: "d",
       },
     ],
@@ -953,7 +961,7 @@ const quizData = [
         value: "d",
       },
     ],
-    correct: ["c"],
+    correct: ["d"],
   },
   {
     question:
@@ -965,11 +973,11 @@ const quizData = [
         value: "a",
       },
       {
-        text: "b)	Prueba de mantenimiento.",
+        text: "b)	Gestión de la configuración",
         value: "b",
       },
       {
-        text: "c)	Gestión de la configuración.",
+        text: "c)	Prueba de mantenimiento.",
         value: "c",
       },
       {
@@ -977,7 +985,7 @@ const quizData = [
         value: "d",
       },
     ],
-    correct: ["c"],
+    correct: ["b"],
   },
   {
     question:
@@ -985,7 +993,7 @@ const quizData = [
       "<br><h3>La aplicación se bloquea</h3>" +
       "<h3>03-Mayo-2022 – Juan Piedra Seca - Rechazado</h3>" +
       '<h3>La aplicación se bloquea tras introducir "Entrada de prueba: $ä" en el campo Nombre de la pantalla de creación de un nuevo usuario. Intenté cerrar la sesión, iniciar sesión con la cuenta test_admin01, mismo problema. Probado con otras cuentas de administrador de prueba, mismo problema. No se ha recibido ningún mensaje de error; el registro (véase adjunto) contiene una notificación de error crítico. Basándose en el caso de prueba TC-1305, la aplicación debería aceptar la entrada proporcionada y crear el usuario. Por favor, corrija con alta prioridad, esta prestación está relacionada con REQ-0012, que es un nuevo requisito de negocio crítico.</h3>' +
-      "<br><br>¿Qué información crítica falta en este informe de prueba que hubiera sido útil para los desarrolladores?" +
+      "<br>¿Qué información crítica falta en este informe de prueba que hubiera sido útil para los desarrolladores?" +
       "<br>Seleccionar UNA opción.",
     options: [
       {
@@ -1029,7 +1037,7 @@ const quizData = [
         value: "d",
       },
     ],
-    correct: ["c"],
+    correct: ["b"],
   },
   {
     question:
@@ -1053,7 +1061,7 @@ const quizData = [
         value: "d",
       },
     ],
-    correct: ["c"],
+    correct: ["b"],
   },
 ];
 document.getElementById("question-text").innerHTML = question.question;
