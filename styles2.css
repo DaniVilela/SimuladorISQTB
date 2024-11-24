@@ -2,7 +2,7 @@
 
 /* Estilo para centrar todo el contenido de la pantalla */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', 'Roboto', 'Helvetica', sans-serif; /* Fuentes de respaldo */
     margin: 0;
     padding: 0;
     display: flex;
