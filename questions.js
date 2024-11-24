@@ -53,19 +53,19 @@ const quizData = [
       "<br>Seleccionar UNA opción.",
     options: [
       {
-        text: "a) La participación de probadores durante varias actividades del ciclo de vida de desarrollo del software (CVDS) ayudará a detectar defectos en los productos software.",
+        text: "a)	Las pruebas se desgastan.",
         value: "a",
       },
       {
-        text: "b) Los probadores intentan no molestar a los desarrolladores mientras codifican, para que éstos escriban un código de mejor calidad.",
+        text: "b)	Falacia de la ausencia de errores.",
         value: "b",
       },
       {
-        text: "c) Los probadores que colaboran con los usuarios finales ayudan a mejorar la calidad de los informes de defectos durante la integración de componentes y las pruebas de sistemas.",
+        text: "c)	Los defectos se agrupan.",
         value: "c",
       },
       {
-        text: "d) Los probadores certificados diseñan casos de prueba mucho mejores que los probadores no certificados.",
+        text: "d)	Es imposible realizar pruebas exhaustivas",
         value: "d",
       },
     ],
@@ -77,19 +77,19 @@ const quizData = [
       "<br>Seleccionar UNA opción.",
     options: [
       {
-        text: "a) La participación de probadores durante varias actividades del ciclo de vida de desarrollo del software (CVDS) ayudará a detectar defectos en los productos software.",
+        text: "a)	Estimar que probar la integración con el servicio de pago llevará 8 días-persona.",
         value: "a",
       },
       {
-        text: "b) Los probadores intentan no molestar a los desarrolladores mientras codifican, para que éstos escriban un código de mejor calidad.",
+        text: "b)	Decidir que el equipo debe probar si es posible compartir correctamente el pago entre muchos usuarios.",
         value: "b",
       },
       {
-        text: "c) Los probadores que colaboran con los usuarios finales ayudan a mejorar la calidad de los informes de defectos durante la integración de componentes y las pruebas de sistemas.",
+        text: "c)	Utilizar el análisis del valor frontera (AVF) para obtener los datos de prueba para los casos de prueba que comprueban el procesamiento correcto del pago para el importe mínimo permitido a pagar.",
         value: "c",
       },
       {
-        text: "d) Los probadores certificados diseñan casos de prueba mucho mejores que los probadores no certificados.",
+        text: "d)	Analizar la discrepancia entre el resultado real y el resultado esperado tras ejecutar un caso de prueba que comprueba el proceso de pago con tarjeta de crédito e informar de un defecto.",
         value: "d",
       },
     ],
@@ -234,23 +234,23 @@ const quizData = [
   },
   {
     question:
-      "<h2>10.- ¿Cuál de los siguientes enunciados describe MEJOR el enfoque de desarrollo guiado por prueba de aceptación (DGPA)?</h2>" +
+      "<h2>10.- ¿Cuál de los siguientes enunciados describe MEJOR el enfoque de desarrollo guiado por prueba de aceptación (ATDD)?</h2>" +
       "<br>Seleccionar UNA opción.",
     options: [
       {
-        text: "a)	En	DGPA, los criterios de aceptación suelen	crearse basándose en el formato dado/cuando/entonces (“given/when/then”).",
+        text: "a)	En	ATDD, los criterios de aceptación suelen	crearse basándose en el formato dado/cuando/entonces (“given/when/then”).",
         value: "a",
       },
       {
-        text: "b)	En DGPA, los casos de prueba se crean principalmente en la prueba de componente y están orientados al código.",
+        text: "b)	En ATDD, los casos de prueba se crean principalmente en la prueba de componente y están orientados al código.",
         value: "b",
       },
       {
-        text: "c)	En DGPA, se crean pruebas basadas en criterios de aceptación para impulsar el desarrollo del software correspondiente.",
+        text: "c)	En ATDD, se crean pruebas basadas en criterios de aceptación para impulsar el desarrollo del software correspondiente.",
         value: "c",
       },
       {
-        text: "d)	En DGPA, las pruebas se basan en el comportamiento deseado del software, lo que facilita su comprensión por parte de los miembros del equipo.",
+        text: "d)	En ATDD, las pruebas se basan en el comportamiento deseado del software, lo que facilita su comprensión por parte de los miembros del equipo.",
         value: "d",
       },
     ],
@@ -318,7 +318,8 @@ const quizData = [
       "<br><br>Seleccionar UNA opción.",
     options: [
       {
-        text: "a)	1D, 2B, 3A, 4C.",
+        text: "a)	1B, 2A, 3D, 4C.",
+
         value: "a",
       },
       {
@@ -326,7 +327,8 @@ const quizData = [
         value: "b",
       },
       {
-        text: "c)	1B, 2A, 3D, 4C.",
+        text: "c)	1D, 2B, 3A, 4C.",
+
         value: "c",
       },
       {
@@ -334,7 +336,7 @@ const quizData = [
         value: "d",
       },
     ],
-    correct: ["a"],
+    correct: ["c"],
   },
   {
     question:
@@ -519,7 +521,7 @@ const quizData = [
         value: "d",
       },
     ],
-    correct: ["c"],
+    correct: ["d"],
   },
   {
     question:
@@ -552,7 +554,7 @@ const quizData = [
         value: "d",
       },
     ],
-    correct: ["c"],
+    correct: ["b"],
   },
   {
     question:
@@ -583,7 +585,7 @@ const quizData = [
         value: "d",
       },
     ],
-    correct: ["c"],
+    correct: ["a"],
   },
   {
     question:
