@@ -683,13 +683,13 @@ const quizData = [
         value: "d",
       },
     ],
-    correct: ["c"],
+    correct: ["d"],
   },
   {
     question:
       "<h2>27.- En su proyecto se ha producido un retraso en la entrega de una nueva aplicación y la ejecución de la prueba ha comenzado con retraso, pero usted tiene un conocimiento muy detallado del dominio y buenas competencias analíticas. La lista completa de requisitos aún no se ha compartido con el equipo, pero la dirección pide que se presenten algunos resultados de la prueba.</h2>" +
       "<br>¿Qué técnica de prueba encaja MEJOR en esta situación?" +
-      "<br>Seleccionar UNA opción.",
+      "<br><br>Seleccionar UNA opción.",
     options: [
       {
         text: "a)	Prueba basada en lista de comprobación.",
@@ -748,7 +748,7 @@ const quizData = [
       "<br>•	El editor puede guardar cambios." +
       '<br>•	El editor puede reasignar el rol de "propietario del contenido" para realizar actualizaciones.' +
       "<br><br>¿Cuál de las siguientes opciones es el MEJOR ejemplo de prueba desarrollo guiado por prueba de aceptación (DGPA) para esta historia de usuario?" +
-      "<br>Seleccionar UNA opción.",
+      "<br><br>Seleccionar UNA opción.",
     options: [
       {
         text: "a)	Probar si el editor puede guardar el documento después de borrar el contenido de la página.",
