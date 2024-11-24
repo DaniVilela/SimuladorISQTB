@@ -17,16 +17,18 @@
             <form id="quiz-form">
                 <!-- Las opciones se generarán dinámicamente -->
             </form>
-            <button id="submit-btn">Contestar</button>
-            <button id="next-btn" style="display: none;">Siguiente pregunta</button>
+            <button id="submit-btn"><strong>Contestar</strong></button>
+            <button id="next-btn" style="display: none;"><strong>Siguiente pregunta</strong></button>
             <div id="score-container">
-                <p><strong>Correctos:</strong> <span id="correct-count">0</span></p>
-                <p><strong>Inorrectos:</strong> <span id="incorrect-count">0</span></p>
+                <p class="count-correct"><strong>Correctos: <span id="correct-count">0</span></strong></p>
+                <p class="count-incorrect"><strong>Incorrectos:</strong> <span id="incorrect-count">0</span></strong>
+                </p>
             </div>
         </div>
         <!-- Contador de tiempo -->
         <div id="timer-container">
-            <p id="timer">01:00:00</p>
+            ---------------------------------------------------- <p id="timer"> 01:00:00</p>
+            ----------------------------------------------------
         </div>
     </div>
     <script src="script.js"></script>
