@@ -29,7 +29,7 @@ const quizData = [
       "<br>Seleccionar UNA opción.",
     options: [
       {
-        text: "a) La participación de probadores durante varias actividades del ciclo de vida de desarrollo del software (CVDS) ayudará a detectar defectos en los productos software.",
+        text: "a) La participación de probadores durante varias actividades del ciclo de vida de desarrollo del software (SDLC) ayudará a detectar defectos en los productos software.",
         value: "a",
       },
       {
@@ -211,23 +211,23 @@ const quizData = [
   },
   {
     question:
-      '<h2>9.- Tenga en cuenta la siguiente regla: "para cada actividad del ciclo de vida de desarrollo de software (SDLC) existe una actividad de prueba correspondiente". ¿En qué modelos de CVDS se cumple esta regla?</h2>' +
+      '<h2>9.- Tenga en cuenta la siguiente regla: "para cada actividad del ciclo de vida de desarrollo de software (SDLC) existe una actividad de prueba correspondiente". ¿En qué modelos de SDLC se cumple esta regla?</h2>' +
       "<br>Seleccionar UNA opción.",
     options: [
       {
-        text: "a)	Sólo en modelos CVDS secuenciales.",
+        text: "a)	Sólo en modelos SDLC secuenciales.",
         value: "a",
       },
       {
-        text: "b)	Sólo en modelos CVDS iterativos.",
+        text: "b)	Sólo en modelos SDLC iterativos.",
         value: "b",
       },
       {
-        text: "c)	Sólo en modelos CVDS iterativos e incrementales.",
+        text: "c)	Sólo en modelos SDLC iterativos e incrementales.",
         value: "c",
       },
       {
-        text: "d)	En modelos CVDS secuenciales, incrementales e iterativos.",
+        text: "d)	En modelos SDLC secuenciales, incrementales e iterativos.",
         value: "d",
       },
     ],
