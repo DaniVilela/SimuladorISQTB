@@ -152,7 +152,7 @@ const quizData = [
         value: "e",
       },
     ],
-    correct: ["a", "d"],
+    correct: ["a", "e"],
   },
   {
     question:
@@ -519,7 +519,7 @@ const quizData = [
         value: "d",
       },
     ],
-    correct: ["d"],
+    correct: ["b"],
   },
   {
     question:
@@ -552,7 +552,7 @@ const quizData = [
         value: "d",
       },
     ],
-    correct: ["b"],
+    correct: ["a"],
   },
   {
     question:
@@ -583,7 +583,7 @@ const quizData = [
         value: "d",
       },
     ],
-    correct: ["a"],
+    correct: ["d"],
   },
   {
     question:
@@ -657,7 +657,7 @@ const quizData = [
         value: "d",
       },
     ],
-    correct: ["c"],
+    correct: ["d"],
   },
   {
     question:
@@ -765,7 +765,7 @@ const quizData = [
         value: "d",
       },
     ],
-    correct: ["d"],
+    correct: ["a"],
   },
   {
     question:
@@ -1035,7 +1035,7 @@ const quizData = [
         value: "d",
       },
     ],
-    correct: ["b"],
+    correct: ["c"],
   },
   {
     question:
@@ -1519,7 +1519,7 @@ const quizData = [
     ],
     correct: ["b"],
   },
-  //-------------------PREGUNTAS ADICIONALES DEL WORD-----------------------
+  //-------------------------------------------------------------------------------------------PREGUNTAS ADICIONALES DEL WORD-----------------------------------------------------------------------------------------------------------------------------------------------------
   {
     question:
       "<h2>58.- Se le ha encomendado la tarea de analizar y solucionar las causas de los fallos de un nuevo sistema que se va a entregar.</h2>" +
@@ -1592,7 +1592,7 @@ const quizData = [
         value: "d",
       },
     ],
-    correct: ["c"],
+    correct: ["d"],
   },
   {
     question:
@@ -1642,7 +1642,7 @@ const quizData = [
         value: "d",
       },
     ],
-    correct: ["d"],
+    correct: ["c"],
   },
 
   {
@@ -1878,9 +1878,10 @@ const quizData = [
         value: "d",
       },
     ],
-    correct: ["c"],
+    correct: ["b"],
   },
   {
+    //pregunta 15 de adicionales
     question:
       "<h2>72.- Un sistema de almacenamiento de vino utiliza un dispositivo de control que mide la temperatura T de la bodega (medida en °C, redondeada al grado más próximo) y avisa al usuario si se desvía del valor óptimo de 12, de acuerdo con las siguientes reglas:</h2>" +
       '<br>•	si T = 12, el sistema dice "temperatura óptima".' +
@@ -1907,7 +1908,7 @@ const quizData = [
         value: "d",
       },
     ],
-    correct: ["a"],
+    correct: ["c"],
   },
   {
     question:
