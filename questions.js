@@ -503,19 +503,19 @@ const quizData = [
       "<br><br>Seleccionar UNA opción.",
     options: [
       {
-        text: "3",
+        text: "a) 3",
         value: "a",
       },
       {
-        text: "4",
+        text: "b) 4",
         value: "b",
       },
       {
-        text: "5",
+        text: "c) 5",
         value: "c",
       },
       {
-        text: "6",
+        text: "d) 6",
         value: "d",
       },
     ],
